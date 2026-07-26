@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #284871;
+    --color-yellow: #FFDD55;
+    --color-mint: #C5F2ED;
+    --color-navy-light: #5E7897;
+    --color-warm-white: #FAF8F3;
+    --color-camel: #D6C5B0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Sora', sans-serif;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Fraunces', Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+.font-sans-body {
+  font-family: 'Sora', system-ui, -apple-system, sans-serif;
+}
+
+/* Grifo / Highlight effect for key words */
+.highlight-mint {
+  background-color: rgba(197, 242, 237, 0.4);
+  color: #284871;
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.highlight-yellow {
+  background-color: #FFDD55;
+  color: #284871;
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Micro-animations */
+@keyframes floatDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+.animate-float {
+  animation: floatDown 2s ease-in-out infinite;
+}
+

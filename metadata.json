@@ -1,0 +1,6 @@
+{
+  "name": "Prompt Anti-Genérico",
+  "description": "Landing page editorial e alta conversão para o produto digital Prompt Anti-Genérico",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
