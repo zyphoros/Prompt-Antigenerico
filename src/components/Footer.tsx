@@ -13,34 +13,34 @@ export const Footer: React.FC<FooterProps> = ({ wordmark, onOpenConfig }) => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
         {/* Brand */}
         <div>
-          <div className="font-serif-display text-xl font-bold text-[#FFDD55] mb-1">
+          <div className="font-serif-display text-xl font-bold text-[#FFFDE0] mb-1">
             {wordmark}
           </div>
           <p className="text-xs text-[#C5F2ED]/60 font-light">
-            Elimine textos robóticos e chavões de IA no seu conteúdo.
+            Soluções inovadoras para marketing
           </p>
         </div>
 
         {/* Quick Links */}
         <div className="flex flex-wrap items-center justify-center gap-4 text-xs font-medium text-[#C5F2ED]/80">
-          <a href="#hero" className="hover:text-[#FFDD55] transition-colors">Início</a>
+          <a href="#hero" className="hover:text-[#FFFDE0] transition-colors">Início</a>
           <span>•</span>
-          <a href="#solucao" className="hover:text-[#FFDD55] transition-colors">Como Funciona</a>
+          <a href="#solucao" className="hover:text-[#FFFDE0] transition-colors">Como Funciona</a>
           <span>•</span>
-          <a href="#pra-quem" className="hover:text-[#FFDD55] transition-colors">Para Quem É</a>
+          <a href="#pra-quem" className="hover:text-[#FFFDE0] transition-colors">Para Quem É</a>
           <span>•</span>
-          <a href="#preco" className="hover:text-[#FFDD55] transition-colors">Preço</a>
+          <a href="#preco" className="hover:text-[#FFFDE0] transition-colors">Preço</a>
           <span>•</span>
-          <a href="#faq" className="hover:text-[#FFDD55] transition-colors">FAQ</a>
+          <a href="#faq" className="hover:text-[#FFFDE0] transition-colors">FAQ</a>
           <span>•</span>
-          <a href="#acompanhamento" className="hover:text-[#FFDD55] transition-colors">Acompanhamento</a>
+          <a href="#acompanhamento" className="hover:text-[#FFFDE0] transition-colors">Acompanhamento</a>
         </div>
 
         {/* Action Helpers */}
         <div className="flex items-center gap-3">
           <button
             onClick={onOpenConfig}
-            className="inline-flex items-center gap-1.5 text-xs text-[#FFDD55] bg-[#FFDD55]/10 hover:bg-[#FFDD55]/20 px-3 py-1.5 rounded-full border border-[#FFDD55]/30 transition-all"
+            className="inline-flex items-center gap-1.5 text-xs text-[#FFFDE0] bg-[#FFFDE0]/10 hover:bg-[#FFFDE0]/20 px-3 py-1.5 rounded-full border border-[#FFFDE0]/30 transition-all"
           >
             <Sliders className="w-3.5 h-3.5" />
             <span>Editar Links</span>

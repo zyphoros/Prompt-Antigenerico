@@ -28,7 +28,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen font-sans-body antialiased flex flex-col selection:bg-[#FFDD55] selection:text-[#284871]">
+    <div className="min-h-screen font-sans-body antialiased flex flex-col selection:bg-[#FFF3A8] selection:text-[#284871]">
       {/* Sticky Navigation */}
       <HeaderNav
         wordmark={config.wordmark}

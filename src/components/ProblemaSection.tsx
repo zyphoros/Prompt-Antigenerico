@@ -13,7 +13,7 @@ export const ProblemaSection: React.FC = () => {
         </div>
 
         {/* Section Title */}
-        <h2 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#FFDD55] text-center tracking-tight mb-12 leading-[1.05]">
+        <h2 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#FFFDE0] text-center tracking-tight mb-12 leading-[1.05]">
           O texto correto que ninguém consegue ler até o final.
         </h2>
 
@@ -21,27 +21,27 @@ export const ProblemaSection: React.FC = () => {
         <div className="space-y-8 text-lg sm:text-xl text-[#C5F2ED] leading-relaxed font-light">
           {/* Paragraph 1 */}
           <div className="p-6 sm:p-8 rounded-2xl bg-[#1e385a]/60 border border-[#C5F2ED]/15 backdrop-blur-sm shadow-sm relative">
-            <Quote className="w-8 h-8 text-[#FFDD55]/20 absolute top-4 right-4 pointer-events-none" />
+            <Quote className="w-8 h-8 text-[#FFFDE0]/20 absolute top-4 right-4 pointer-events-none" />
             <p className="relative z-10">
-              Você já testou pedir conteúdo pra IA e recebeu de volta um texto correto, mas <span className="text-[#FFDD55] font-semibold bg-[#FFDD55]/10 px-1.5 py-0.5 rounded">sem graça</span>.
+              Você já testou pedir conteúdo pra IA e recebeu de volta um texto correto, mas <span className="text-[#FFFDE0] font-semibold bg-[#FFFDE0]/10 px-1.5 py-0.5 rounded">sem graça</span>.
             </p>
           </div>
 
           {/* Paragraph 2 */}
           <div className="p-6 sm:p-8 rounded-2xl bg-[#1e385a]/60 border border-[#C5F2ED]/15 backdrop-blur-sm shadow-sm">
             <p className="mb-4">
-              Frases que parecem ter saído do mesmo lugar que todo mundo usa. Aberturas com <span className="text-[#FFDD55] font-medium bg-[#FFDD55]/10 px-2 py-0.5 rounded border border-[#FFDD55]/20">"no mundo de hoje"</span>. Fechamentos motivacionais que não dizem nada. Um <span className="text-[#FFDD55] font-medium bg-[#FFDD55]/10 px-2 py-0.5 rounded border border-[#FFDD55]/20">"não é X, é Y"</span> toda hora.
+              Frases que parecem ter saído do mesmo lugar que todo mundo usa. Aberturas com <span className="text-[#FFFDE0] font-medium bg-[#FFFDE0]/10 px-2 py-0.5 rounded border border-[#FFFDE0]/20">"no mundo de hoje"</span>. Fechamentos motivacionais que não dizem nada. Um <span className="text-[#FFFDE0] font-medium bg-[#FFFDE0]/10 px-2 py-0.5 rounded border border-[#FFFDE0]/20">"não é X, é Y"</span> toda hora.
             </p>
-            <div className="flex items-center gap-2 text-xs text-[#FFDD55] font-mono pt-2 border-t border-[#C5F2ED]/10">
-              <AlertTriangle className="w-4 h-4 shrink-0 text-[#FFDD55]" />
+            <div className="flex items-center gap-2 text-xs text-[#FFFDE0] font-mono pt-2 border-t border-[#C5F2ED]/10">
+              <AlertTriangle className="w-4 h-4 shrink-0 text-[#FFFDE0]" />
               <span>Padrões saturados identificados em 90% dos textos gerados por IA</span>
             </div>
           </div>
 
           {/* Paragraph 3 */}
-          <div className="p-6 sm:p-8 rounded-2xl bg-[#FFDD55]/10 border border-[#FFDD55]/30 text-center">
-            <p className="text-xl sm:text-2xl font-serif-display text-[#FFDD55] font-normal italic">
-              "A IA só repete o padrão que você manda. Sem direção clara, ela cai no <span className="underline decoration-[#FFDD55] underline-offset-4 font-bold not-italic">genérico</span>."
+          <div className="p-6 sm:p-8 rounded-2xl bg-[#FFFDE0]/10 border border-[#FFFDE0]/30 text-center">
+            <p className="text-xl sm:text-2xl font-serif-display text-[#FFFDE0] font-normal italic">
+              "A IA só repete o padrão que você manda. Sem direção clara, ela cai no <span className="underline decoration-[#FFFDE0] underline-offset-4 font-bold not-italic">genérico</span>."
             </p>
           </div>
         </div>

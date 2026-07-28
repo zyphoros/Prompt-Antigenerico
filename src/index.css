@@ -3,7 +3,7 @@
 @layer base {
   :root {
     --color-navy: #284871;
-    --color-yellow: #FFDD55;
+    --color-yellow: #FFF3A8;
     --color-mint: #C5F2ED;
     --color-navy-light: #5E7897;
     --color-warm-white: #FAF8F3;
@@ -36,7 +36,7 @@
 }
 
 .highlight-yellow {
-  background-color: #FFDD55;
+  background-color: #FFF3A8;
   color: #284871;
   padding: 0.1em 0.35em;
   border-radius: 0.25rem;

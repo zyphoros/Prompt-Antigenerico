@@ -22,12 +22,12 @@ export const PrecoSection: React.FC<PrecoSectionProps> = ({ checkoutLink }) => {
         </h2>
 
         <p className="font-sans-body text-base sm:text-lg text-[#5E7897] mb-10 max-w-xl mx-auto">
-          Um investimento de baixo ticket para transformar permanentemente a qualidade do conteúdo que você gera com IA.
+          Um investimento acessível para transformar permanentemente a qualidade do conteúdo que você gera com IA.
         </p>
 
         {/* Pricing Card */}
         <div className="bg-[#FAF8F3] border-2 border-[#284871] rounded-3xl p-8 sm:p-12 shadow-xl hover:shadow-2xl transition-shadow relative overflow-hidden mb-8">
-          <div className="absolute top-0 right-0 bg-[#FFDD55] text-[#284871] text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-bl-xl border-l border-b border-[#284871]">
+          <div className="absolute top-0 right-0 bg-[#FFFDE0] text-[#284871] text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-bl-xl border-l border-b border-[#284871]">
             OFERTA ESPECIAL
           </div>
 
@@ -59,7 +59,7 @@ export const PrecoSection: React.FC<PrecoSectionProps> = ({ checkoutLink }) => {
             href={checkoutLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full inline-flex items-center justify-center px-8 py-5 rounded-full bg-[#284871] text-[#FFDD55] font-bold text-base sm:text-lg uppercase tracking-wider hover:bg-[#1f3859] hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-xl transition-all duration-200 group"
+            className="w-full inline-flex items-center justify-center px-8 py-5 rounded-full bg-[#284871] text-[#FFFDE0] font-bold text-base sm:text-lg uppercase tracking-wider hover:bg-[#1f3859] hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-xl transition-all duration-200 group"
           >
             <span>Quero parar de soar genérico</span>
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />

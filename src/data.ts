@@ -13,7 +13,7 @@ export const DEFAULT_CHECKOUT_LINK = "https://pay.kiwify.com.br/exemplo_prompt_a
 /* WHATSAPP_LINK_AQUI */
 export const DEFAULT_WHATSAPP_LINK = "https://wa.me/5511999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20acompanhamento%20estrat%C3%A9gico.";
 
-export const DEFAULT_WORDMARK = "PROMPT ANTI-GENÉRICO";
+export const DEFAULT_WORDMARK = "LARA PORTELA";
 
 export const SOLUTION_CARDS: SolutionCardItem[] = [
   {
@@ -39,6 +39,18 @@ export const SOLUTION_CARDS: SolutionCardItem[] = [
     title: "Inquérito Inteligente",
     description: "Instruções pra IA te perguntar o que faltar, em vez de inventar um conteúdo genérico \"no escuro\".",
     iconName: "HelpCircle"
+  },
+  {
+    number: "05",
+    title: "Guia em Vídeo & PDF",
+    description: "Vídeo aula passo a passo mostrando a aplicação prática no ChatGPT/Claude, acompanhada de um PDF instrucional completo para consulta rápida.",
+    iconName: "Video"
+  },
+  {
+    number: "06",
+    title: "Detalhes e Criatividade",
+    description: "Orientações para você ser assertivo e descrever ao máximo os detalhes do que precisa, garantindo um prompt sob medida e hiper-criativo.",
+    iconName: "Sparkles"
   }
 ];
 

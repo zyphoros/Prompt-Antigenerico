@@ -17,9 +17,9 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
         {/* Wordmark */}
         <a 
           href="#hero" 
-          className="font-serif-display text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-[#FFDD55] hover:opacity-90 transition-opacity flex items-center gap-2"
+          className="font-serif-display text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-[#FFFDE0] hover:opacity-90 transition-opacity flex items-center gap-2"
         >
-          <span className="w-2.5 h-2.5 rounded-full bg-[#FFDD55] inline-block animate-pulse"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-[#FFFDE0] inline-block animate-pulse"></span>
           <span>{wordmark}</span>
         </a>
 
@@ -28,7 +28,7 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
           {onOpenConfig && (
             <button
               onClick={onOpenConfig}
-              className="p-2 rounded-full text-[#C5F2ED] hover:text-[#FFDD55] hover:bg-[#C5F2ED]/10 transition-all"
+              className="p-2 rounded-full text-[#C5F2ED] hover:text-[#FFFDE0] hover:bg-[#C5F2ED]/10 transition-all"
               title="Configurar Links de Checkout/WhatsApp"
             >
               <Sliders className="w-4 h-4" />
@@ -36,10 +36,10 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
           )}
 
           <a
-            href="#preco"
-            className="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 rounded-full bg-[#FFDD55] text-[#284871] font-semibold text-xs sm:text-sm tracking-wide uppercase hover:bg-[#ffe580] hover:scale-105 active:scale-95 shadow-md hover:shadow-lg transition-all duration-200"
+            href="#acompanhamento"
+            className="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 rounded-full bg-[#FFFDE0] text-[#284871] font-semibold text-xs sm:text-sm tracking-wide uppercase hover:bg-[#FFFFF0] hover:scale-105 active:scale-95 shadow-md hover:shadow-lg transition-all duration-200"
           >
-            <span>Garantir por R$17</span>
+            <span>Entre em contato</span>
             <ArrowDown className="w-3.5 h-3.5 ml-1.5" />
           </a>
         </div>

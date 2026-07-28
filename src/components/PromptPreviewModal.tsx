@@ -21,20 +21,20 @@ export const PromptPreviewModal: React.FC<PromptPreviewModalProps> = ({ isOpen, 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
       <div 
-        className="bg-[#284871] border border-[#FFDD55]/30 text-[#C5F2ED] rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl relative overflow-hidden max-h-[90vh] flex flex-col"
+        className="bg-[#284871] border border-[#FFFDE0]/30 text-[#C5F2ED] rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl relative overflow-hidden max-h-[90vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div className="flex items-center justify-between pb-4 border-b border-[#C5F2ED]/10 mb-4">
           <div className="flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-[#FFDD55]" />
-            <h3 className="font-serif-display text-xl font-bold text-[#FFDD55]">
+            <Sparkles className="w-5 h-5 text-[#FFFDE0]" />
+            <h3 className="font-serif-display text-xl font-bold text-[#FFFDE0]">
               Prévia da Estrutura do Prompt
             </h3>
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-full hover:bg-[#C5F2ED]/10 text-[#C5F2ED] hover:text-[#FFDD55] transition-colors"
+            className="p-1.5 rounded-full hover:bg-[#C5F2ED]/10 text-[#C5F2ED] hover:text-[#FFFDE0] transition-colors"
           >
             <X className="w-5 h-5" />
           </button>
@@ -53,7 +53,7 @@ export const PromptPreviewModal: React.FC<PromptPreviewModalProps> = ({ isOpen, 
         <div className="mt-6 pt-4 border-t border-[#C5F2ED]/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <button
             onClick={handleCopy}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#FFDD55] text-[#284871] font-bold text-sm uppercase tracking-wide hover:bg-[#ffe580] transition-colors"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#FFFDE0] text-[#284871] font-bold text-sm uppercase tracking-wide hover:bg-[#FFF8C9] transition-colors"
           >
             {copied ? (
               <>
@@ -71,7 +71,7 @@ export const PromptPreviewModal: React.FC<PromptPreviewModalProps> = ({ isOpen, 
           <a
             href="#preco"
             onClick={onClose}
-            className="text-xs text-[#FFDD55] hover:underline font-semibold"
+            className="text-xs text-[#FFF3A8] hover:underline font-semibold"
           >
             Adquirir o Prompt Completo por R$17 →
           </a>

@@ -13,7 +13,7 @@ export const AcompanhamentoSection: React.FC<AcompanhamentoSectionProps> = ({ wh
         <div className="bg-[#FAF8F3]/60 backdrop-blur-md rounded-3xl p-8 sm:p-14 border border-[#284871]/20 shadow-xl">
           {/* Eyebrow / Tag */}
           <div className="flex flex-wrap items-center gap-3 mb-6">
-            <span className="text-[10px] sm:text-xs font-bold tracking-[0.3em] uppercase bg-[#284871] text-[#FFDD55] px-4 py-1.5 rounded-full inline-block">
+            <span className="text-[10px] sm:text-xs font-bold tracking-[0.3em] uppercase bg-[#284871] text-[#FFFDE0] px-4 py-1.5 rounded-full inline-block">
               ALÉM DO PROMPT — ACOMPANHAMENTO ESTRATÉGICO
             </span>
             <span className="text-[10px] uppercase tracking-[0.2em] font-mono text-[#284871]/80 border border-[#284871]/30 px-3 py-1 rounded-full bg-[#FAF8F3]/80">
@@ -67,9 +67,9 @@ export const AcompanhamentoSection: React.FC<AcompanhamentoSectionProps> = ({ wh
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-[#284871] text-[#FFDD55] font-bold text-base uppercase tracking-wider hover:bg-[#1f3859] hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl transition-all duration-200 group"
+            className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-[#284871] text-[#FFFDE0] font-bold text-base uppercase tracking-wider hover:bg-[#1f3859] hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl transition-all duration-200 group"
           >
-            <MessageCircle className="w-5 h-5 mr-2 text-[#FFDD55]" />
+            <MessageCircle className="w-5 h-5 mr-2 text-[#FFFDE0]" />
             <span>Fala comigo</span>
             <ArrowUpRight className="w-5 h-5 ml-1.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
