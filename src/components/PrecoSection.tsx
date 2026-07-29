@@ -17,7 +17,10 @@ export const PrecoSection: React.FC<PrecoSectionProps> = ({ checkoutLink }) => {
         </div>
 
         {/* Title */}
-        <h2 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#284871] tracking-tight mb-4 leading-tight">
+        <h2 
+          style={{ fontFamily: "'Advercase', 'Advercase Font', 'Advercase-Regular', 'Playfair Display', Georgia, serif" }}
+          className="font-advercase text-3xl sm:text-5xl font-bold text-[#284871] tracking-tight mb-4 leading-tight"
+        >
           Quanto custa parar de soar genérico?
         </h2>
 

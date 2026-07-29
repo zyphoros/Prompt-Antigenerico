@@ -52,11 +52,11 @@ export default function App() {
 
         {/* =========================================================================
             BLOCO 2 — FUNDO #FAF8F3 (WARM WHITE)
-            - A Solução + Pra Quem É + Preço + FAQ
+            - Para Quem É + A Solução + Preço + FAQ
             ========================================================================= */}
         <div className="bg-[#FAF8F3]">
-          <SolucaoSection />
           <PraQuemSection />
+          <SolucaoSection />
           <PrecoSection checkoutLink={config.checkoutLink} />
           <FaqSection />
         </div>

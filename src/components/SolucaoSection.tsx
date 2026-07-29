@@ -26,7 +26,10 @@ export const SolucaoSection: React.FC = () => {
         </div>
 
         {/* Title */}
-        <h2 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#284871] text-center tracking-tight mb-6 leading-[1.05] max-w-3xl mx-auto">
+        <h2 
+          style={{ fontFamily: "'Advercase', 'Advercase Font', 'Advercase-Regular', 'Playfair Display', Georgia, serif" }}
+          className="font-advercase text-3xl sm:text-5xl font-bold text-[#284871] text-center tracking-tight mb-6 leading-[1.05] max-w-3xl mx-auto"
+        >
           Um documento anti-genérico, pronto pra usar.
         </h2>
 

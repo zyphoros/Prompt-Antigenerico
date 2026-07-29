@@ -22,7 +22,10 @@ export const AcompanhamentoSection: React.FC<AcompanhamentoSectionProps> = ({ wh
           </div>
 
           {/* Title */}
-          <h2 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#284871] tracking-tight mb-8 leading-tight">
+          <h2 
+            style={{ fontFamily: "'Advercase', 'Advercase Font', 'Advercase-Regular', 'Playfair Display', Georgia, serif" }}
+            className="font-advercase text-3xl sm:text-5xl font-bold text-[#284871] tracking-tight mb-8 leading-tight"
+          >
             Quer alguém cuidando disso de perto?
           </h2>
 
@@ -32,7 +35,7 @@ export const AcompanhamentoSection: React.FC<AcompanhamentoSectionProps> = ({ wh
               Se você busca algo mais preciso, aqui te entrego uma estratégia pensada pro seu negócio. Alguém acompanhando de perto, criando junto com você.
             </p>
             <p className="font-normal border-l-2 border-[#284871] pl-4 sm:pl-6 py-1">
-              Trabalho com estratégia de conteúdo, planejamento, roteirização de postagens, criação de designs — tudo pensado com o cuidado necessário.
+              Trabalho com estratégia de conteúdo, planejamento, roteirização de postagens e criação de designs, tudo pensado com o cuidado necessário.
             </p>
           </div>
 

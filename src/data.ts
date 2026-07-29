@@ -49,7 +49,7 @@ export const SOLUTION_CARDS: SolutionCardItem[] = [
   {
     number: "06",
     title: "Detalhes e Criatividade",
-    description: "Orientações para você ser assertivo e descrever ao máximo os detalhes do que precisa, garantindo um prompt sob medida e hiper-criativo.",
+    description: "Orientações para você ser assertivo e descrever ao máximo os detalhes do que precisa, garantindo um prompt sob medida.",
     iconName: "Sparkles"
   }
 ];

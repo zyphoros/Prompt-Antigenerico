@@ -33,7 +33,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ checkoutLink, onOpenPr
             </p>
 
             {/* Headline */}
-            <h1 className="font-serif-display text-4xl sm:text-6xl md:text-7xl font-bold text-[#FFFDE0] tracking-tight leading-[0.98] mb-6">
+            <h1 
+              style={{ fontFamily: "'Advercase', 'Advercase Font', 'Advercase-Regular', 'Playfair Display', Georgia, serif" }}
+              className="font-advercase text-4xl sm:text-6xl md:text-7xl font-bold text-[#FFFDE0] tracking-tight leading-[0.98] mb-6"
+            >
               O prompt que faz sua IA parar de escrever igual todo mundo
             </h1>
 

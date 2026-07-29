@@ -1,4 +1,23 @@
 @import "tailwindcss";
+@import url('https://fonts.cdnfonts.com/css/advercase');
+
+@font-face {
+  font-family: 'Advercase';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Advercase'), local('Advercase Regular'), local('Advercase-Regular'),
+       url('https://fonts.cdnfonts.com/s/72223/Advercase-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Advercase Font';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Advercase'), local('Advercase Regular'), local('Advercase-Regular'),
+       url('https://fonts.cdnfonts.com/s/72223/Advercase-Regular.woff') format('woff');
+}
 
 @layer base {
   :root {
@@ -14,6 +33,10 @@
     scroll-behavior: smooth;
     font-family: 'Sora', sans-serif;
   }
+}
+
+.font-advercase {
+  font-family: 'Advercase', 'Advercase Font', 'Advercase-Regular', 'Playfair Display', 'Fraunces', Georgia, serif;
 }
 
 .font-serif-display {
