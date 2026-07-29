@@ -17,10 +17,10 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
         {/* Wordmark */}
         <a 
           href="#hero" 
-          className="font-serif-display text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-[#FFFDE0] hover:opacity-90 transition-opacity flex items-center gap-2"
+          className="font-sans-body text-lg sm:text-xl md:text-2xl font-normal tracking-tight text-[#FFFDE0] hover:opacity-90 transition-opacity flex items-center gap-2"
         >
           <span className="w-2.5 h-2.5 rounded-full bg-[#FFFDE0] inline-block animate-pulse"></span>
-          <span>{wordmark}</span>
+          <span className="font-sans-body font-normal">{wordmark}</span>
         </a>
 
         {/* Action Buttons */}

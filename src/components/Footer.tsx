@@ -13,7 +13,7 @@ export const Footer: React.FC<FooterProps> = ({ wordmark, onOpenConfig }) => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
         {/* Brand */}
         <div>
-          <div className="font-serif-display text-xl font-bold text-[#FFFDE0] mb-1">
+          <div className="font-sans-body text-xl font-normal text-[#FFFDE0] mb-1">
             {wordmark}
           </div>
           <p className="text-xs text-[#C5F2ED]/60 font-light">
